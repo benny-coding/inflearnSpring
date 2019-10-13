@@ -12,7 +12,7 @@ public class MainClass {
 
         // # 스프링 컨테이너 접근 방법
 
-        GenericXmlApplicationContext ctx = new GenericXmlApplicationContext("classpath:applicationContext.xml");
+        GenericXmlApplicationContext ctx = new GenericXmlApplicationContext("classpath:constructorApplicationContext.xml");
 
         TransportationWalk transportationWalk = ctx.getBean("tWalk", TransportationWalk.class);
         transportationWalk.move();
