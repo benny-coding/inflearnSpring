@@ -1,5 +1,6 @@
 package chap9.word;
 
+import chap9.word.service.*;
 import org.springframework.context.support.GenericXmlApplicationContext;
 
 public class MainClass {
