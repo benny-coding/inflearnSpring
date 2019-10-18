@@ -9,7 +9,13 @@
 
     <context:annotation-config/>
 
-    <bean id="wordDao" class="chap9.word.dao.WordDao"/>
-    <bean id="registerService" class="chap9.word.service.WordRegisterService"/>
-    <bean id="searchService" class="chap9.word.service.WordSearchService"/>
+    <bean id="wordDao1" class="chap9.word.dao.WordDao">
+        <qualifier value="usedDao"/>
+    </bean>
+    <bean id="wordDao2" class="chap9.word.dao.WordDao"/>
+    <bean id="wordDao3" class="chap9.word.dao.WordDao"/>
+
+
+    <bean id="registerServiceUseAutowired" class="chap9.word.service.WordRegisterServiceUseAutowired"/>
+    <bean id="searchServiceUseAutowired" class="chap9.word.service.WordSearchServiceUseAutowired"/>
 </beans>

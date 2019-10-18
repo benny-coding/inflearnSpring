@@ -9,18 +9,18 @@ public class MainClassUseAutowired {
         String[] keyWords = {"c", "c++"};
         String[] values = {"C는 C다","C++은 C++이다"};
 
-        GenericXmlApplicationContext ctx =
+        GenericXmlApplicationContext ctxAw =
                 new GenericXmlApplicationContext("classpath:appCtxUseAutowired.xml");
 
-        WordRegisterService registerService =
-                ctx.getBean("registerService", WordRegisterService.class);
+        WordRegisterServiceUseAutowired registerService =
+                ctxAw.getBean("registerServiceUseAutowired", WordRegisterServiceUseAutowired.class);
         for(int i = 0; i < values.length; i++){
             WordSet wordSet = new WordSet(keyWords[i], values[i]);
             registerService.register(wordSet);
         }
 
-        WordSearchService searchService =
-                ctx.getBean("searchService", WordSearchService.class);
+        WordSearchServiceUseAutowired searchService =
+                ctxAw.getBean("searchServiceUseAutowired", WordSearchServiceUseAutowired.class);
 
         System.out.println("\n\n---------------------------------");
         for (int i = 0; i < keyWords.length; i++) {
@@ -33,6 +33,6 @@ public class MainClassUseAutowired {
         }
         System.out.println("\n\n");
 
-        ctx.close();
+        ctxAw.close();
     }
 }

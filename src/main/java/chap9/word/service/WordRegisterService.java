@@ -11,6 +11,7 @@ public class WordRegisterService {
     @Resource
     private WordDao wordDao;
 
+    public WordRegisterService(){}
 
     public WordRegisterService(WordDao wordDao){
         this.wordDao = wordDao;

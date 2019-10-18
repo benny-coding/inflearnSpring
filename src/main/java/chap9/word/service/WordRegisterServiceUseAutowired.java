@@ -3,10 +3,12 @@ package chap9.word.service;
 import chap9.word.WordSet;
 import chap9.word.dao.WordDao;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 
 public class WordRegisterServiceUseAutowired {
 
     @Autowired
+    @Qualifier("usedDao")
     private WordDao wordDao;
 
     public WordRegisterServiceUseAutowired(){
@@ -26,7 +28,7 @@ public class WordRegisterServiceUseAutowired {
         }
     }
 
-    @Autowired
+
     public boolean verify(String wordKey){
         WordSet wordSet = wordDao.select(wordKey);
         return wordSet == null ? true : false;
