@@ -14,13 +14,13 @@ public class MainClass {
         String[] bNum = {"123", "456", "789"};
         String[] bTitle = {"HTML", "CSS", "JAVA"};
 
-        String[] mIds = {"rabiit", "hippo", "raccoon"};
+        String[] mIds = {"rabbit", "hippo", "raccoon"};
         String[] mPws = {"950327", "950328", "950329"};
         String[] mNames = {"오동진", "주용우", "박종운"};
 
         // 스프링 컨테이너 생성
         GenericXmlApplicationContext ctx =
-                new GenericXmlApplicationContext("classpath:bookApplicationContext.xml");
+                new GenericXmlApplicationContext("classpath:ApplicationContext.xml");
 
         // 더미 도서 목록 등록
         BookRegisterService bookRegisterService =
@@ -34,7 +34,7 @@ public class MainClass {
         // 더미 도서 목록 출력
         BookSearchService bookSearchService =
                 ctx.getBean("bookRegisterService", BookSearchService.class);
-        System.out.println("nbNum / tbTitle / tbCanRen / tbLenderId");
+        System.out.println("\nbNum\tbTitle\tbCanRen\tbLenderId");
         System.out.println("---------------------------------------");
         for (int i = 0; i < bNum.length ; i++) {
             Book book = bookSearchService.searchBook(bNum[i]);
@@ -57,7 +57,7 @@ public class MainClass {
         // 더미 회원 목록 출력
         MemberSearchService memberSearchService =
                 ctx.getBean("memberSearchSerivce", MemberSearchService.class);
-        System.out.println("nmId / tmPw / tmName ");
+        System.out.println("\nmId\tmPw\tmName ");
         System.out.println("----------------------------------------");
         for (int i = 0; i < mIds.length; i++) {
             Member member = memberSearchService.searchMember(mIds[i]);
@@ -68,8 +68,13 @@ public class MainClass {
         }
 
         // 도서 대여 목록 등록
+        bookRegisterService.register(new Book("123", "HTML", false,memberSearchService.searchMember("rabbit")));
+        bookRegisterService.register(new Book("456", "CSS", false,memberSearchService.searchMember("hippo")));
+        bookRegisterService.register(new Book("789", "JAVA", false,memberSearchService.searchMember("raccon")));
+
 
         // 도서 대여 목록 출력
+        System.out.println("\nbNum\tbTitle\tbCanRen\tbLenderId");
 
     }}
 

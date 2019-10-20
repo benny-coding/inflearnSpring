@@ -3,8 +3,14 @@ package com.brms.book.dao;
 import java.util.HashMap;
 import java.util.Map;
 import com.brms.book.Book;
+import org.springframework.beans.factory.annotation.Autowired;
 
 public class BookDao {
+
+    @Autowired
+    public BookDao(){
+
+    }
 
     private Map<String, Book> bookDB =
             new HashMap<String, Book>();

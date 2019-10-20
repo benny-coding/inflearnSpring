@@ -4,14 +4,7 @@
     <facet type="Spring" name="Spring">
       <configuration>
         <fileset id="fileset" name="Spring Application Context" removed="false">
-          <file>file://$MODULE_DIR$/src/main/resources/apCtx1.xml</file>
-          <file>file://$MODULE_DIR$/src/main/resources/chap9/appCtx.xml</file>
-          <file>file://$MODULE_DIR$/src/main/resources/chap8/SingletonApplicationContext.xml</file>
-          <file>file://$MODULE_DIR$/src/main/resources/constructorApplicationContext.xml</file>
-          <file>file://$MODULE_DIR$/src/main/resources/mapApplicationContext.xml</file>
-          <file>file://$MODULE_DIR$/src/main/resources/apCtx3.xml</file>
-          <file>file://$MODULE_DIR$/src/main/resources/setterApplicationContext.xml</file>
-          <file>file://$MODULE_DIR$/src/main/resources/apCtx2.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/ApplicationContext.xml</file>
         </fileset>
       </configuration>
     </facet>
