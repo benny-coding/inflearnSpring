@@ -2,30 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fc20ef0-1463-4032-add2-39ca06fdd3d8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/ApplicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Spring_4_3_18_RELEASE.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inflearnSpring.iml" beforeDir="false" afterPath="$PROJECT_DIR$/inflearnSpring.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/brms/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/brms/MainClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/brms/book/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/brms/book/Book.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/brms/book/dao/BookDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/brms/book/dao/BookDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/brms/book/service/BookRegisterService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/brms/book/service/BookRegisterService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/brms/book/service/BookSearchService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/brms/book/service/BookSearchService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/brms/member/dao/MemberDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/brms/member/dao/MemberDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/bookApplicationContext.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/appCtx.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/appCtxUseAutowired.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chap9/word/MainClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chap9/word/MainClassUseAutowired.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chap9/word/MainClassUseInject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chap9/word/WordSet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chap9/word/dao/WordDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chap9/word/service/WordRegisterService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chap9/word/service/WordRegisterServiceUseAutowired.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chap9/word/service/WordRegisterServiceUseInject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chap9/word/service/WordRegisterServiceUseResource.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chap9/word/service/WordSearchService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chap9/word/service/WordSearchServiceUseAutowired.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chap9/word/service/WordSearchServiceUseInject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chap9/word/service/WordSearchServiceUseResource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/brms/member/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/brms/member/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/brms/member/service/MemberRegisterService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/brms/member/service/MemberRegisterService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/brms/member/service/MemberSearchService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/brms/member/service/MemberSearchService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/ApplicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ApplicationContext.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -53,8 +41,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/brms/book/dao/BookDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="89">
-              <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+            <state relative-caret-position="131">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -62,11 +50,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/brms/book/service/BookRegisterService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+            <state relative-caret-position="266">
+              <caret line="24" column="34" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -77,8 +65,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/brms/book/service/BookSearchService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+            <state relative-caret-position="311">
+              <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -89,33 +77,25 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/ApplicationContext.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="270">
+              <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/inflearnSpring.iml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/brms/member/service/MemberRegisterService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+            <state relative-caret-position="360">
+              <caret line="24" column="50" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#299#300#0" expanded="true" />
+                <element signature="e#339#340#0" expanded="true" />
+                <element signature="e#416#417#0" expanded="true" />
+                <element signature="e#452#453#0" expanded="true" />
+                <element signature="e#511#512#0" expanded="true" />
+                <element signature="e#547#548#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -124,8 +104,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/brms/MainClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+            <state relative-caret-position="297">
+              <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -134,10 +114,54 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/brms/member/Member.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+              <folding>
+                <element signature="e#291#292#0" expanded="true" />
+                <element signature="e#322#323#0" expanded="true" />
+                <element signature="e#418#419#0" expanded="true" />
+                <element signature="e#449#450#0" expanded="true" />
+                <element signature="e#546#547#0" expanded="true" />
+                <element signature="e#583#584#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/brms/book/Book.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+              <folding>
+                <element signature="e#433#434#0" expanded="true" />
+                <element signature="e#460#461#0" expanded="true" />
+                <element signature="e#507#508#0" expanded="true" />
+                <element signature="e#539#540#0" expanded="true" />
+                <element signature="e#493#494#0" expanded="true" />
+                <element signature="e#522#523#0" expanded="true" />
+                <element signature="e#566#567#0" expanded="true" />
+                <element signature="e#602#603#0" expanded="true" />
+                <element signature="e#639#640#0" expanded="true" />
+                <element signature="e#672#673#0" expanded="true" />
+                <element signature="e#725#726#0" expanded="true" />
+                <element signature="e#769#770#0" expanded="true" />
+                <element signature="e#803#804#0" expanded="true" />
+                <element signature="e#833#834#0" expanded="true" />
+                <element signature="e#879#880#0" expanded="true" />
+                <element signature="e#917#918#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/brms/member/service/MemberSearchService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+            <state relative-caret-position="240">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#299#300#0" expanded="true" />
@@ -150,8 +174,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/brms/member/dao/MemberDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+            <state relative-caret-position="176">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -178,6 +202,7 @@
       <find>wordSet</find>
       <find>WordRegisterService</find>
       <find>GenericXmlApplicationContext</find>
+      <find>getName</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -189,7 +214,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/chap6/ElectronicRadioToy.java" />
         <option value="$PROJECT_DIR$/src/main/java/chap6/ElectronicCarToy.java" />
         <option value="$PROJECT_DIR$/src/main/java/chap6/main/MainClass.java" />
         <option value="$PROJECT_DIR$/src/main/java/chap6/toy/ElectronicRadioToy.java" />
@@ -229,18 +253,26 @@
         <option value="$PROJECT_DIR$/src/main/java/chap9/word/service/WordSearchServiceUseAutowired.java" />
         <option value="$PROJECT_DIR$/src/main/java/chap9/word/MainClassUseAutowired.java" />
         <option value="$PROJECT_DIR$/src/main/resources/appCtxUseResource.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/brms/member/dao/MemberDao.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/bookApplicationContext.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/brms/book/dao/BookDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/brms/member/service/MemberSearchService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/brms/book/Book.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/brms/member/Member.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/brms/member/service/MemberSearchService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/brms/member/dao/MemberDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/brms/member/service/MemberRegisterService.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/bookApplicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/brms/book/service/BookRegisterService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/brms/MainClass.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/brms/book/service/BookSearchService.java" />
         <option value="$PROJECT_DIR$/src/main/resources/ApplicationContext.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/brms/book/dao/BookDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/brms/book/service/BookRegisterService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/brms/member/service/MemberRegisterService.java" />
       </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="MavenProjectNavigator">
@@ -270,7 +302,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="825" />
@@ -281,7 +313,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -350,21 +381,56 @@
               <item name="inflearnSpring" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="brms" type="462c0819:PsiDirectoryNode" />
+              <item name="member" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="inflearnSpring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="inflearnSpring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="brms" type="462c0819:PsiDirectoryNode" />
+              <item name="member" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="inflearnSpring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="inflearnSpring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="brms" type="462c0819:PsiDirectoryNode" />
+              <item name="member" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="inflearnSpring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="inflearnSpring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="inflearnSpring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571581460914" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571669316391" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
@@ -483,12 +549,15 @@
       <workItem from="1571578747536" duration="827000" />
       <workItem from="1571579606753" duration="1321000" />
       <workItem from="1571581248791" duration="244000" />
-      <workItem from="1571581810601" duration="345000" />
+      <workItem from="1571581810601" duration="702000" />
+      <workItem from="1571665447497" duration="1063000" />
+      <workItem from="1571666608167" duration="215000" />
+      <workItem from="1571666966178" duration="2173000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44955000" />
+    <option name="totallyTimeSpent" value="48763000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -500,10 +569,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="825" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27825466" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28898427" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -513,15 +582,15 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32771084" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" weight="0.32771084" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3987952" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4985694" visible="true" weight="0.35180724" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49928468" weight="0.32891566" />
       <window_info anchor="bottom" id="Spring" order="7" sideWeight="0.49928468" weight="0.32891566" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4985694" weight="0.32771084" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49713877" weight="0.32742155" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007153" side_tool="true" visible="true" weight="0.37107778" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.4985694" visible="true" weight="0.32771084" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50143063" side_tool="true" visible="true" weight="0.35180724" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49713877" weight="0.32650602" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.49928468" weight="0.32891566" />
       <window_info anchor="bottom" id="Thumbnails" order="14" weight="0.32891566" />
@@ -544,7 +613,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/chap5/MainClass.java" />
     <entry file="jar://$PROJECT_DIR$/lib/spring-context-4.3.18.RELEASE.jar!/org/springframework/context/support/GenericApplicationContext.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -601,13 +669,68 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/inflearnSpring.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="uml://SpringLocalModels/module=inflearnSpring">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>SpringLocalModels</ID>
+          <OriginalElement>module=inflearnSpring</OriginalElement>
+          <nodes>
+            <node x="0.0" y="0.0">module=inflearnSpring</node>
+            <node x="190.0" y="0.0">fileset=inflearnSpring/Spring Application Context</node>
+            <node x="460.0" y="0.0">filePath=/Users/odongjin/inflearnSpring/src/main/resources/ApplicationContext.xml</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="fileset=inflearnSpring/Spring Application Context" target="filePath=/Users/odongjin/inflearnSpring/src/main/resources/ApplicationContext.xml">
+              <point x="95.0" y="-0.0" />
+              <point x="-83.5" y="-0.0" />
+            </edge>
+            <edge source="module=inflearnSpring" target="fileset=inflearnSpring/Spring Application Context">
+              <point x="55.0" y="-0.0" />
+              <point x="-95.0" y="-0.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="52.0" y="29.0" />
+          <SelectedNodes>
+            <node>module=inflearnSpring</node>
+            <node>filePath=/Users/odongjin/inflearnSpring/src/main/resources/ApplicationContext.xml</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Show filesets as groups</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="20" column="17" lean-forward="true" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/brms/book/dao/BookDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/brms/book/Book.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        <state relative-caret-position="156">
+          <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
           <folding>
             <element signature="e#433#434#0" expanded="true" />
             <element signature="e#460#461#0" expanded="true" />
+            <element signature="e#507#508#0" expanded="true" />
+            <element signature="e#539#540#0" expanded="true" />
             <element signature="e#493#494#0" expanded="true" />
             <element signature="e#522#523#0" expanded="true" />
             <element signature="e#566#567#0" expanded="true" />
@@ -624,51 +747,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/brms/member/Member.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="35" column="27" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
-          <folding>
-            <element signature="e#291#292#0" expanded="true" />
-            <element signature="e#322#323#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inflearnSpring.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/brms/member/service/MemberRegisterService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/brms/MainClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/brms/member/service/MemberSearchService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        <state relative-caret-position="240">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#299#300#0" expanded="true" />
@@ -677,27 +759,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/brms/member/Member.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#291#292#0" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
+            <element signature="e#418#419#0" expanded="true" />
+            <element signature="e#449#450#0" expanded="true" />
+            <element signature="e#546#547#0" expanded="true" />
+            <element signature="e#583#584#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/brms/member/dao/MemberDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+        <state relative-caret-position="176">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/ApplicationContext.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/brms/MainClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/brms/book/dao/BookDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        <state relative-caret-position="297">
+          <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -706,8 +796,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/brms/book/service/BookSearchService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        <state relative-caret-position="311">
+          <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -716,10 +806,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/brms/book/service/BookRegisterService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+        <state relative-caret-position="266">
+          <caret line="24" column="34" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/ApplicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/brms/member/service/MemberRegisterService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="50" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#299#300#0" expanded="true" />
+            <element signature="e#339#340#0" expanded="true" />
+            <element signature="e#416#417#0" expanded="true" />
+            <element signature="e#452#453#0" expanded="true" />
+            <element signature="e#511#512#0" expanded="true" />
+            <element signature="e#547#548#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -741,7 +854,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Spring</last-edited>
+          <last-edited>Spring (inflearnSpring)|Spring</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -788,7 +901,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Spring-4.3.18.RELEASE</last-edited>
+          <last-edited>Maven: org.springframework:spring-core:4.1.0.RELEASE</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

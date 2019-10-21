@@ -21,6 +21,10 @@ public class Book {
         return bNum;
     }
 
+    public void setbNum(String bNum) {
+        this.bNum = bNum;
+    }
+
     public String getbTitle() {
         return bTitle;
     }
@@ -45,9 +49,7 @@ public class Book {
         this.bMember = bMember;
     }
 
-    public void setbNum(String bNum) {
-        this.bNum = bNum;
-    }
+
 
 
 }

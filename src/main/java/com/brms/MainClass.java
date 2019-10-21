@@ -28,12 +28,12 @@ public class MainClass {
 
         for (int i = 0; i < bNum.length; i++) {
             Book book = new Book(bNum[i], bTitle[i], true, null);
-            BookRegisterService.register(book);
+            bookRegisterService.register(book);
         }
 
         // 더미 도서 목록 출력
         BookSearchService bookSearchService =
-                ctx.getBean("bookRegisterService", BookSearchService.class);
+                ctx.getBean("bookSearchService", BookSearchService.class);
         System.out.println("\nbNum\tbTitle\tbCanRen\tbLenderId");
         System.out.println("---------------------------------------");
         for (int i = 0; i < bNum.length ; i++) {
@@ -51,12 +51,12 @@ public class MainClass {
                 ctx.getBean("memberRegisterService", MemberRegisterService.class);
         for (int i = 0; i < mIds.length ; i++) {
             Member member = new Member(mIds[i], mPws[i], mNames[i]);
-            MemberRegisterService.register(member);
+            memberRegisterService.register(member);
         }
 
         // 더미 회원 목록 출력
         MemberSearchService memberSearchService =
-                ctx.getBean("memberSearchSerivce", MemberSearchService.class);
+                ctx.getBean("memberSearchService", MemberSearchService.class);
         System.out.println("\nmId\tmPw\tmName ");
         System.out.println("----------------------------------------");
         for (int i = 0; i < mIds.length; i++) {
@@ -75,6 +75,8 @@ public class MainClass {
 
         // 도서 대여 목록 출력
         System.out.println("\nbNum\tbTitle\tbCanRen\tbLenderId");
+
+        ctx.close();
 
     }}
 

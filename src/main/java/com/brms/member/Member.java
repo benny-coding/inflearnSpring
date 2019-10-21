@@ -29,7 +29,7 @@ public class Member  {
     }
 
     public String getName(){
-        return this.getName();
+        return this.mName;
     }
 
     public void setName(String mName){
