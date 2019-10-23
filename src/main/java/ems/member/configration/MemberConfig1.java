@@ -9,8 +9,12 @@ import ems.member.service.StudentDeleteService;
 import ems.member.service.StudentModifyService;
 import ems.member.service.StudentRegisterService;
 import ems.member.service.StudentSelectService;
+import org.springframework.context.annotation.Import;
 
+
+// DAO와 Service만 관리를 하는 객체이다.
 @Configuration
+@Import({MemberConfig2.class,MemberConfig3.class})
 public class MemberConfig1 {
 
 	@Bean

@@ -19,6 +19,7 @@ import ems.member.service.StudentSelectService;
 @Configuration
 public class MemberConfig {
 
+	// Applicationcontext.xml에 선언하였던 Bean들을 @Bean Annotation을 통해 사용할 수 있다.
 	@Bean
 	public StudentDao studentDao() {
 		return new StudentDao();
